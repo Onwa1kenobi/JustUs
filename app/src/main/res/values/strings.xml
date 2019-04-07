@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Just Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send">Send</string>
+    <string name="enter_topic">Enter a unique topic</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="message_deleted">This message was deleted.</string>
+</resources>

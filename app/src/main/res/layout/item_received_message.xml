@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginStart="@dimen/text_margin"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_guideline"
+            app:layout_constraintGuide_percent=".75"
+            android:orientation="vertical"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/text_message"
+              android:layout_width="wrap_content"
+              app:layout_constrainedWidth="true"
+              android:layout_height="wrap_content"
+              android:background="@drawable/received_message_background"
+              android:paddingBottom="@dimen/text_margin"
+              android:paddingEnd="16dp"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingStart="16dp"
+              android:paddingTop="@dimen/text_margin"
+              android:textColor="@android:color/black"
+              android:textSize="@dimen/description_text_size"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintEnd_toEndOf="@id/start_guideline"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintHorizontal_bias="0.0"
+              tools:text="Hi there, I'm Julius"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
